@@ -32,13 +32,13 @@ ________________________________________________________________________________
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #282c34;
+            background-color: #283434;
             color: white;
             font-family: 'JetBrains Mono', monospace;
             margin: 0;
         }
         h1 {
-            border: 2px solid #61dafb;
+            border: 2px solid #61fb94;
             padding: 20px;
             border-radius: 10px;
             cursor: pointer;
@@ -58,7 +58,7 @@ ________________________________________________________________________________
         
         title.addEventListener('click', () => {
             title.textContent = 'Hello, RS School! 🚀';
-            title.style.color = '#61dafb';
+            title.style.color = '#61fba6';
             console.log('Title clicked!');
         });
     </script>
