@@ -1,0 +1,30 @@
+/* 1. Базовый сброс стилей */
+*, *::before, *::after {
+    box-sizing: border-box; /* Удобный расчет размеров */
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Настройки для всего документа */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* 3. Основные стили блоков */
+header, footer {
+    background: #35424a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background: white;
+    max-width: 800px;
+    margin: 20px auto; /* Центрирование */
+    border-radius: 5px;
+}
