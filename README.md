@@ -1,1 +1,1 @@
-https://lazleha.github.io/rsschool-cv/
+https://lazleha.github.io/rsschool-cv/rsschool-cv-html
