@@ -1,15 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header><h1>What is Lorem Ipsum?</h1></header>
-    <img src="/rs_school/rsschool-cv/photo/ava.png" alt="Logo">
-    <main><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></main>
-    <footer><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p></footer>
-</body>
+    <title>CV - Aleksey Lazarev</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./assets/img/cv.png" alt="Avatar" class="avatar">
+        <div class="container">
+          <h1>Aleksey Lazarev</h1>
+          <p>Frontend Developer Student | RS School (Stage 0)</p>
+        </div>
+      </header>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#contacts">Contacts</a>
+        <a href="#skills">Skills</a>
+        <a href="#code">Code</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#english">English</a>
+      </nav>
+
+      <main>
+        <div class="container">
+        <section id="about">
+          <h2>About Me</h2>
+          <p>
+            I am a motivated student at RS School, learning frontend
+            development. I enjoy creating clean and responsive web pages.
+          </p>
+        </section>
+
+        <section id="contacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:your.email@example.com">fojcsog@gmail.com</a>
+            </li>
+            <li>
+              GitHub:
+              <a href="https://github.com/lazleha">github.com/lazleha</a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (Basic)</li>
+            <li>Git / GitHub</li>
+          </ul>
+        </section>
+
+        <section id="code">
+          <h2>Code Example</h2>
+          <pre><code>function sum(a, b) {
+    return a + b;
+}</code></pre>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/lazleha/rsschool-cv"
+                >CV Project (GitHub)</a
+              >
+            </li>
+            <li><a href="#">Landing Page (in progress)</a></li>
+          </ul>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>RS School (2026) - Stage 0 (Preschool)</li>
+            <li>Self-study: FreeCodeCamp, YouTube tutorials</li>
+          </ul>
+        </section>
+
+        <section id="english">
+          <h2>English Level</h2>
+          <ul>
+            <li>Pre-Intermediate (A2) - in progres</li>
+          </ul>
+        </section>
+        </div>
+      </main>
+
+      <footer class="container">
+        <a href="https://github.com/lazleha">GitHub</a>
+        <span>2026</span>
+        <a href="https://rs.school/">
+          <img src="./assets/img/rs-school-logo.svg" alt="RS School Logo" width="40">
+        </a>
+      </footer>
+    </div>
+  </body>
 </html>
